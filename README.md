@@ -32,10 +32,6 @@ churn-prediction-main/
 │
 └── README.md
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 🚀 Features
@@ -57,20 +53,10 @@ Edit
 git clone https://github.com/yourusername/churn-prediction.git
 cd churn-prediction-main
 2. Install dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
 If requirements.txt is missing, manually install:
-
-bash
-Copy
-Edit
 pip install pandas scikit-learn shap streamlit matplotlib seaborn
 3. Run the dashboard
-bash
-Copy
-Edit
 cd dashboard
 streamlit run app.py
 📊 Dataset
